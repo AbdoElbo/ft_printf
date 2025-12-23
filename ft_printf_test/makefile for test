@@ -1,9 +1,0 @@
-
-
-
-makefile for test: 
-
-test: $(NAME)
-	$(CC) $(CFLAGS) -o test test.c -L. -lftprintf && ./test
-
-.PHONY: all clean fclean re test
